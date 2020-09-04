@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>联系客服</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/contactUs.css">
+</head>
+
+<body>
+    <div class="contactUs-content">
+        <div class="contact">
+            <div class="contact-item flex-vertical-center">
+                <div class="flex-center">
+                    <img class="icon-tel" src="./images/center/icon-tel.png" alt="">
+                    <p>客服电话：010-56478788</p>
+                </div>
+                <a class="js-tel" href="javascript:;">一键拨打</a>
+            </div>
+            <div class="contact-item flex-vertical-center">
+                <div class="flex-center">
+                    <img class="icon-weChat" src="./images/center/icon-weChat.png" alt="">
+                    <p>客服微信：lanbiaokefu001</p>
+                </div>
+                <a class="js-weChat" href="javascript:;">一键复制</a>
+            </div>
+            <p class="time">关于产品服务相关问题的反馈，工作时间：<span>10:00-18:00</span></p>
+            <div class="footer">
+                <p>欢迎关注<i>「蓝标大学」</i>公众号了解详情</p>
+                <img src="./images/center/qrcode.jpg" alt="">
+                <span>长按识别二维码关注</span>
+            </div>
+        </div>
+        <!-- 弹出层 -->
+        <div class="mask hide"></div>
+        <!-- 确认拨打电话 -->
+        <div id="tel" class="pof-center z101 hide">
+            <div class="tel-modal">
+                <p class="txt">即将与 <span>010-56478788</span> 进行通话</p>
+                <a class="tel-btn" href="tel:010-56478788">确认拨打</a>
+            </div>
+            <img class="icon-close js-close" src="./images/center/icon-close.png" alt="">
+        </div>
+        <!-- 复制微信号 -->
+        <div id="WeChat" class="pof-center z101 hide">
+            <div class="tel-modal WeChat-modal">
+                <p class="txt poa-center">客服微信号已复制</p>
+            </div>
+            <img class="icon-close js-close" src="./images/center/icon-close.png" alt="">
+        </div>
+    </div>
+
+    <!-- 引入我们的flexible.js 文件 -->
+    <script src="./libs/jquery-1.8.3.min.js"></script>
+    <script src="./libs/flexible.min.js"></script>
+    <script src="./js/common.js"></script>
+</body>
+
+</html>

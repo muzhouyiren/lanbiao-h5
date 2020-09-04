@@ -1,0 +1,74 @@
+// 公告列表
+.notices-content {
+    ul {
+        padding: 0 .4rem;
+        li {
+            padding: .533333rem 0;
+            border-bottom: 1px solid #F0F0F0;
+            .img,.new {
+                position: relative;
+                width: 1.2rem;
+                height: 1.2rem;
+            }
+            .new::after {
+                content: "";
+                position: absolute;
+                top: .053333rem;
+                right: .053333rem;
+                width:.266667rem;
+                height:.266667rem;
+                background:#FF6628;
+                border-radius:50%;
+            }
+            .notices-info {
+                width: 7.653333rem;
+                font-size:.4rem;
+                font-family:PingFangSC;
+                font-weight:500;
+                line-height: .466667rem;
+                color:#2F2F2F; 
+                .date {
+                    margin-top: .133333rem;
+                    font-weight:400;
+                    font-size:.32rem;
+                    color:#8B8B8B;
+                }
+            }
+            // p {
+                
+            //     &.date {
+            //         margin-top: .133333rem;
+            //         font-weight:400;
+            //         font-size:.32rem;
+            //         color:#8B8B8B;
+            //     }
+            // }
+        }
+    }
+}
+
+
+// 公告详情
+.notices-details-content {
+    padding: .4rem .4rem 0;
+    .notices-cont {
+        margin-bottom: .533333rem;
+        font-size:.4rem;
+        font-family:PingFangSC;
+        font-weight:400;
+        color:#2F2F2F;
+    }
+    .notices-info {
+        font-size:.32rem;
+        font-family:PingFang SC;
+        font-weight:400;
+        color:#8B8B8B;
+        a {
+            color:#1677FF;
+            .fa {
+                margin-left: .133333rem;
+                font-size: .5rem;
+            }
+        }
+    }
+}

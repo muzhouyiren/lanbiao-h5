@@ -1,0 +1,302 @@
+.course-details-content .banner .play-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.course-details-content .banner .play-box .play-btn {
+  margin: 0 auto;
+  width: 0.733333rem;
+  height: 0.893333rem;
+}
+.course-details-content .tabs {
+  height: 1.333333rem;
+  background: #f5f5f5;
+}
+.course-details-content .tabs li {
+  width: 33.33%;
+  height: 1.333333rem;
+  line-height: 1.333333rem;
+  text-align: center;
+  position: relative;
+  color: #2f2f2f;
+  font-size: 0.426667rem;
+  font-family: Adobe Heiti Std;
+  font-weight: bold;
+}
+.course-details-content .tabs li.active {
+  color: #1677ff;
+}
+.course-details-content .tabs li.active::after {
+  content: '';
+  width: 2.146667rem;
+  height: 0.106667rem;
+  background: #1677ff;
+  border-radius: 0.053333rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+.course-details-content .tabs-item {
+  padding-bottom: 2.4rem;
+}
+.course-details-content .tabs-item .course-directory {
+  margin-bottom: 0.266667rem;
+  font-size: 0.32rem;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+.course-details-content .tabs-item .course-directory span {
+  margin-left: 0.4rem;
+  color: #FF6627;
+}
+.course-details-content .tabs-item .course-list .lis {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: top;
+  align-items: top;
+  padding-top: 0.333333rem;
+  min-height: 0.933333rem;
+}
+.course-details-content .tabs-item .course-list .lis.on .right {
+  border: none;
+}
+.course-details-content .tabs-item .course-list .lis .ico {
+  flex-shrink: 0;
+  margin-top: 0.106667rem;
+  width: 0.453333rem;
+  height: 0.453333rem;
+}
+.course-details-content .tabs-item .course-list .lis .right {
+  font-family: PingFangSC-Regular;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-flow: row nowrap;
+  padding-bottom: 0.24rem;
+  border-bottom: 1px solid #dddddd;
+  width: 8.213333rem;
+  color: #2f2f2f;
+  font-size: 0.426667rem;
+  line-height: 0.666667rem;
+}
+.course-details-content .tabs-item .course-list .lis .right .course-num {
+  margin-right: 0.266667rem;
+  white-space: nowrap;
+  color: #2f2f2f;
+  font-size: 0.426667rem;
+}
+.course-details-content .tabs-item .course-list .uni-list {
+  width: 8.213333rem;
+  margin-left: 0.98rem;
+}
+.course-details-content .tabs-item .course-list .uni-list .uni-list-cell {
+  padding: 0.333333rem 0;
+  border-bottom: 1px solid #dddddd;
+  color: #8b8b8b;
+  font-size: 0.426667rem;
+  flex-wrap: wrap;
+}
+.course-details-content .tabs-item .course-list .uni-list .uni-list-cell p {
+  line-height: 0.58rem;
+}
+.course-details-content .tabs-item .course-list .uni-list .uni-list-cell p span {
+  color: #8B8B8B !important;
+  font-size: 0.32rem;
+}
+.course-details-content .tabs-item .course-list .uni-list .uni-list-cell .state-btn {
+  display: inline-block;
+  padding: 0.186667rem 0.32rem 0.173333rem 0.306667rem;
+  font-size: 0.32rem;
+  border-radius: 0.333333rem;
+  font-family: PingFangSC;
+}
+.course-details-content .tabs-item .course-list .uni-list .uni-list-cell .audition {
+  color: #189BFF;
+  border: 1px solid #189BFF;
+}
+.course-details-content .tabs-item .course-list .uni-list .uni-list-cell .learned {
+  color: #8B8B8B;
+  border: 1px solid #8B8B8B;
+}
+.course-details-content .tabs-item .course-list .uni-list .uni-list-cell .learning {
+  color: #FF6627;
+  border: 1px solid #FF6627;
+}
+.course-details-content .tabs-item .questions-content .title {
+  font-size: 0.4rem;
+  font-family: PingFangSC;
+  font-weight: bold;
+  color: #2F2F2F;
+}
+.course-details-content .tabs-item .questions-content .title span {
+  margin-left: 0.24rem;
+  font-size: 0.32rem;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #8B8B8B;
+}
+.course-details-content .tabs-item .questions-content .all-questions {
+  font-size: 0.32rem;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #FF6627;
+}
+.course-details-content .tabs-item .questions-content .all-questions .fa {
+  margin-left: 0.186667rem;
+}
+.course-details-content .tabs-item .questions-content .tips {
+  margin-top: 0;
+  padding: 1.48rem 0 1.466667rem;
+  border-bottom: 1px solid #DDDDDD;
+}
+.course-details-content .tabs-item .questions-content .tips .img {
+  margin: 0 auto 0.453333rem;
+  width: 2.373333rem;
+  height: 1.64rem;
+}
+.course-details-content .tabs-item .questions-content .tips p {
+  font-size: 0.4rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #8B8B8B;
+  text-align: center;
+}
+.course-details-content .tabs-item .questions-content .my-questions li {
+  display: -webkit-box;
+  display: flex;
+  padding: 0.386667rem 0 0.346667rem;
+  border-bottom: 1px solid #DDDDDD;
+}
+.course-details-content .tabs-item .questions-content .my-questions li .ico {
+  margin-top: 0.08rem;
+  width: 0.453333rem;
+  height: 0.413333rem;
+}
+.course-details-content .tabs-item .questions-content .my-questions li .right {
+  width: 8.346667rem;
+  font-size: 0.346667rem;
+  line-height: 0.533333rem;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #2F2F2F;
+}
+.course-details-content .tabs-item .questions-content .ask-questions {
+  margin: 0.533333rem 0 0.786667rem;
+  font-size: 0.4rem;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #1677FF;
+}
+.course-details-content .tabs-item .questions-content .ask-questions .fa {
+  margin-left: 0.24rem;
+}
+.course-details-content .tabs-item .questions-content .qa-list {
+  margin-top: 0.133333rem;
+}
+.course-details-content .tabs-item .questions-content .qa-list li {
+  border-bottom: 1px solid #DDDDDD;
+}
+.course-details-content .tabs-item .questions-content .qa-list li .lis {
+  padding: 0.386667rem 0;
+}
+.course-details-content .tabs-item .questions-content .qa-list li .lis.on .fa {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.course-details-content .tabs-item .questions-content .qa-list li .lis h4 {
+  font-size: 0.4rem;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #2F2F2F;
+}
+.course-details-content .tabs-item .questions-content .qa-list li .lis .fa {
+  color: #8B8B8B;
+}
+.course-details-content .tabs-item .questions-content .qa-list li .uni-list .uni-list-cell {
+  margin-bottom: 0.36rem;
+}
+.course-details-content .tabs-item .questions-content .qa-list li .uni-list .uni-list-cell:last-child {
+  margin-bottom: 0;
+}
+.course-details-content .tabs-item .questions-content .qa-list li .uni-list .uni-list-cell:last-child .right {
+  border-bottom: 0;
+}
+.course-details-content .tabs-item .questions-content .qa-list li .uni-list .uni-list-cell .ico {
+  width: 0.506667rem;
+  height: 0.4rem;
+}
+.course-details-content .tabs-item .questions-content .qa-list li .uni-list .uni-list-cell .right {
+  padding-bottom: 0.4rem;
+  width: 8.373333rem;
+  font-size: 0.346667rem;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #8B8B8B;
+  border-bottom: 1px solid #F0F0F0;
+}
+.course-details-content .tabs-item .questions-content .qa-list li .uni-list .uni-list-cell .right p {
+  line-height: 0.533333rem;
+}
+.course-details-content .tabs-item .questions-content .qa-list li .uni-list .uni-list-cell .right .questions {
+  margin-bottom: 0.386667rem;
+  color: #2F2F2F;
+}
+.course-details-content .tabs-item .home-work {
+  margin-top: -0.133333rem;
+}
+.course-details-content .tabs-item .home-work li {
+  padding: 0.386667rem 0;
+  font-size: 0.4rem;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #2F2F2F;
+  border-bottom: 1px solid #DDDDDD;
+}
+.course-details-content .tabs-item .home-work li a {
+  color: #2F2F2F;
+}
+.course-details-content .tabs-item .home-work li a p {
+  display: -webkit-box;
+  display: flex;
+  width: 7.066667rem;
+  line-height: 0.533333rem;
+}
+.course-details-content .tabs-item .home-work li a span {
+  margin-top: 0.08rem;
+  font-size: 0.32rem;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #8B8B8B;
+}
+.course-details-content .tabs-item .tips {
+  margin-top: 2.013333rem;
+}
+.course-details-content .tabs-item .tips .img {
+  margin: 0 auto 0.453333rem;
+  width: 2.373333rem;
+  height: 1.64rem;
+}
+.course-details-content .tabs-item .tips p {
+  font-size: 0.4rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #8B8B8B;
+  text-align: center;
+}
+.wrap-center {
+  padding: 0.533333rem 0.4rem 0;
+}
+.color-FF6627 {
+  color: #FF6627 !important;
+}
+.fa {
+  font-size: 0.5rem;
+}

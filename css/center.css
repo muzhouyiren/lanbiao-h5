@@ -1,0 +1,189 @@
+.center-content {
+  background: #fff;
+}
+.center-content .main {
+  padding-bottom: 1.173333rem;
+  background: #fff;
+}
+.center-content .main .fa {
+  font-size: 0.5rem;
+}
+.center-content .main .top-box {
+  padding: 0.8rem 0.4rem 0;
+  width: 100%;
+  height: 5.066667rem;
+  background: url(../images/center/banner-bg.jpg) no-repeat 100% 100% / cover;
+}
+.center-content .main .top-box .left-img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.center-content .main .top-box .right-info {
+  width: 6.786667rem;
+  font-size: 0.4rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #fff;
+}
+.center-content .main .top-box .right-info div {
+  margin-top: 0.266667rem;
+  font-size: 0.32rem;
+}
+.center-content .main .wrap-center {
+  padding: 0 0.4rem;
+}
+.center-content .main .center-cont {
+  margin-top: -1.466667rem;
+  width: 100%;
+  height: auto;
+}
+.center-content .main .center-cont .notice-info {
+  position: relative;
+  padding: 0.533333rem 0.4rem 0.4rem;
+  width: 100%;
+  min-height: 4rem;
+  background: #fff;
+  border-radius: 0.4rem;
+}
+.center-content .main .center-cont .notice-info .title {
+  font-size: 0.4rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #2F2F2F;
+}
+.center-content .main .center-cont .notice-info .all-notices {
+  font-size: 0.32rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #FF6628;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.center-content .main .center-cont .notice-info .all-notices .fa {
+  margin-left: 0.106667rem;
+}
+.center-content .main .center-cont .notice-info .no-notice-tips {
+  margin-top: 0.133333rem;
+  font-size: 0.4rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #8B8B8B;
+}
+.center-content .main .center-cont .notice-info .notices-list {
+  padding: 0.133333rem 0 0.4rem;
+}
+.center-content .main .center-cont .notice-info .notices-list li {
+  position: relative;
+  padding: 0.4rem 0 0.4rem 0.453333rem;
+  border-bottom: 1px solid #F0F0F0;
+}
+.center-content .main .center-cont .notice-info .notices-list li a {
+  font-size: 0.346667rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  line-height: 0.533333rem;
+  color: #2F2F2F;
+}
+.center-content .main .center-cont .notice-info .notices-list li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.34rem;
+  width: 0.266667rem;
+  height: 0.266667rem;
+  background: #FF6627;
+  border-radius: 0.133333rem;
+}
+.center-content .main .item-list {
+  padding-top: 0.933333rem;
+}
+.center-content .main .item-list li {
+  padding-left: 0.4rem;
+}
+.center-content .main .item-list li .img {
+  width: 0.693333rem;
+}
+.center-content .main .item-list li .img img {
+  margin: 0 auto;
+}
+.center-content .main .item-list li .img1 {
+  width: 0.586667rem;
+  height: 0.426667rem;
+}
+.center-content .main .item-list li .img2 {
+  width: 0.48rem;
+  height: 0.466667rem;
+}
+.center-content .main .item-list li .img3 {
+  width: 0.453333rem;
+  height: 0.506667rem;
+}
+.center-content .main .item-list li .img4 {
+  width: 0.506667rem;
+  height: 0.493333rem;
+}
+.center-content .main .item-list li .img5 {
+  width: 0.506667rem;
+  height: 0.506667rem;
+}
+.center-content .main .item-list li .border-b-none {
+  border-bottom: none !important;
+}
+.center-content .main .item-list li .form-info {
+  padding: 0.546667rem 0.4rem 0.546667rem 0;
+  width: 8.533333rem;
+  border-bottom: 1px solid #DDDDDD;
+}
+.center-content .main .item-list li .form-info p {
+  font-size: 0.4rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #2F2F2F;
+}
+.center-content .main .item-list li .form-info .fa {
+  color: #DDDDDD;
+}
+.center-content .main .item-list li .form-info a {
+  font-size: 0.32rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #8B8B8B;
+}
+.center-content .main .item-list li .form-info a .fa {
+  margin-left: 0.106667rem;
+}
+.center-content .main .item-list li.line {
+  width: 100%;
+  height: 0.266667rem;
+  background: #F5F5F5;
+}
+.center-content .main .footer {
+  padding-top: 1.333333rem;
+  padding-bottom: 1.253333rem;
+  text-align: center;
+}
+.center-content .main .footer p {
+  margin-bottom: 0.586667rem;
+  font-size: 0.4rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #8B8B8B;
+}
+.center-content .main .footer p i {
+  color: #1677FF;
+}
+.center-content .main .footer img {
+  margin: 0 auto 0.16rem;
+  width: 3.253333rem;
+  height: 3.253333rem;
+}
+.center-content .main .footer span {
+  display: block;
+  font-size: 0.32rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #8b8b8b;
+  color: #8B8B8B;
+}

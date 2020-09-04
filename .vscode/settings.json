@@ -1,0 +1,12 @@
+{
+    "less.compile": {
+        "compress": false, // 是否删除多余空白字符
+        // "out": "${workspaceRoot}\\css\\" 
+        "out": "../css/", // 输出css文件目录，false为不输出
+    },
+    "cssrem.rootFontSize": 75,
+    "cssrem.ingoresViaCommand": [
+        "1px",
+        "0.5px"
+    ], //路径
+}

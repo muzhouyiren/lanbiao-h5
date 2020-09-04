@@ -1,0 +1,22 @@
+.wrap-center {
+  padding: 0.133333rem 0.4rem 0;
+}
+.my-questions li {
+  display: -webkit-box;
+  display: flex;
+  padding: 0.386667rem 0 0.346667rem;
+  border-bottom: 1px solid #DDDDDD;
+}
+.my-questions li .ico {
+  margin-top: 0.08rem;
+  width: 0.453333rem;
+  height: 0.413333rem;
+}
+.my-questions li .right {
+  width: 8.346667rem;
+  font-size: 0.346667rem;
+  line-height: 0.533333rem;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #2F2F2F;
+}

@@ -1,0 +1,175 @@
+.center-content {
+  background: #fcfcfc;
+}
+.center-content .main {
+  padding-bottom: 1.733333rem;
+}
+.center-content .main .fa {
+  font-size: 0.5rem;
+}
+.center-content .main .top-box {
+  width: 100%;
+  height: 5.266667rem;
+  background: url(../images/learning/top-bg.png) no-repeat 100% 100% / cover;
+}
+.center-content .main .wrap-center {
+  padding: 0 0.4rem;
+}
+.center-content .main .center-cont {
+  margin-top: -3.533333rem;
+  width: 100%;
+  height: auto;
+  min-height: 80%;
+}
+.center-content .main .center-cont .top-box-center h3 {
+  padding-left: 0.64rem;
+  font-size: 0.48rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #ffffff;
+}
+.center-content .main .center-cont .course-info {
+  position: relative;
+  margin-top: 1.333333rem;
+  margin-bottom: 0.4rem;
+  padding: 0.533333rem 0.533333rem 0.4rem;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+.center-content .main .center-cont .course-info:last-child {
+  margin-top: 0;
+  margin-bottom: 1.306667rem;
+}
+.center-content .main .center-cont .course-info .course-info-top {
+  padding-bottom: 0.533333rem;
+  border-bottom: 1px solid #ddd;
+}
+.center-content .main .center-cont .course-info .course-info-top .left {
+  margin-right: 0.4rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+.center-content .main .center-cont .course-info .course-info-top .right {
+  width: 5.466667rem;
+}
+.center-content .main .center-cont .course-info .course-info-top .right .title {
+  margin-bottom: 0.333333rem;
+  font-weight: 700;
+}
+.center-content .main .center-cont .course-info .course-info-top .right .title i {
+  font-size: 0.4rem;
+  color: #2f2f2f;
+}
+.center-content .main .center-cont .course-info .course-info-top .right .title .btn {
+  min-width: 1.066667rem;
+  min-height: 0.4rem;
+  min-width: 1.093333rem;
+  display: inline-block;
+  margin-right: 0.213333rem;
+  padding: 0.053333rem 0.106667rem;
+  font-size: 0.293333rem;
+  color: #fff;
+  font-weight: 700;
+  background: #189bff;
+  border-radius: 0.186667rem;
+}
+.center-content .main .center-cont .course-info .course-info-top .right .title .bg-ff6627 {
+  background: #ff6627;
+}
+.center-content .main .center-cont .course-info .course-info-top .right p {
+  font-size: 0.32rem;
+  color: #8b8b8b;
+  line-height: 0.533333rem;
+}
+.center-content .main .center-cont .course-info .course-info-bottom {
+  padding-top: 0.533333rem;
+}
+.center-content .main .center-cont .course-info .course-info-bottom .update {
+  font-size: 0.32rem;
+  color: #ff6627;
+}
+.center-content .main .center-cont .course-info .course-info-bottom .update i {
+  margin-left: 0.133333rem;
+  font-size: 0.5rem;
+}
+.center-content .main .center-cont .course-info .course-info-bottom .course-progress {
+  margin-top: 0.493333rem;
+  font-size: 0.32rem;
+  color: #8b8b8b;
+}
+.center-content .main .center-cont .course-info .course-info-bottom .course-progress span {
+  color: #2f2f2f;
+}
+.center-content .main .center-cont .course-info .course-info-bottom .course-progress .mypro {
+  background: #dddddd;
+  width: 4rem;
+  height: 0.2rem;
+  border-radius: 0.093333rem;
+  -webkit-appearance: none;
+}
+.center-content .main .center-cont .course-info .course-info-bottom .course-progress ::-ms-fill {
+  background: #189bff;
+}
+.center-content .main .center-cont .course-info .course-info-bottom .course-progress ::-moz-progress-bar {
+  background: #189bff;
+}
+.center-content .main .center-cont .course-info .course-info-bottom .course-progress ::-webkit-progress-bar {
+  border-radius: 0.093333rem;
+  background: #dddddd;
+}
+.center-content .main .center-cont .course-info .course-info-bottom .course-progress ::-webkit-progress-value {
+  border-radius: 0.093333rem;
+  background: #189bff;
+}
+.center-content .main .center-cont .course-info .course-info-bottom .view-results {
+  margin: 0.533333rem 0 0.4rem;
+  padding: 0.386667rem 0 0.373333rem;
+  font-size: 0.32rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #2f2f2f;
+  border: 1px dashed #f0f0f0;
+}
+.center-content .main .center-cont .course-info .course-info-bottom .view-results i {
+  margin-left: 0.133333rem;
+  font-size: 0.5rem;
+}
+.center-content .main .center-cont .course-info .course-info-bottom .contact {
+  font-size: 0.32rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #2f2f2f;
+}
+.center-content .main .center-cont .course-info .course-info-bottom .contact a {
+  padding: 0.16rem 0.293333rem;
+  font-size: 0.293333rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #189bff;
+  border: 1px solid #189bff;
+  /*no*/
+  border-radius: 0.306667rem;
+}
+.center-content .main .center-cont .course-info .course-mask-div {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/learning/mask-bg.png) no-repeat 100% 100% / cover;
+}
+.center-content .main .center-cont .course-info .course-mask-div .course-mask-txt {
+  width: 6.666667rem;
+  height: 1.733333rem;
+  line-height: 1.733333rem;
+  text-align: center;
+  font-size: 0.4rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 0.4rem;
+}

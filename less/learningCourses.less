@@ -1,0 +1,356 @@
+.course-details-content {
+    .banner {
+        .play-box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            .play-btn {
+                margin: 0 auto;
+                width: .733333rem;
+                height: .893333rem;
+            }
+        }
+    }
+
+    // tab
+    .tabs {
+        height: 1.333333rem;
+        background: #f5f5f5;
+        li {
+            width: 33.33%;
+            height: 1.333333rem;
+            line-height: 1.333333rem;
+            text-align: center;
+            position: relative;
+            color: #2f2f2f;
+            font-size:.426667rem;
+            font-family:Adobe Heiti Std;
+            font-weight:bold;
+
+            &.active {
+                color: #1677ff;
+                &::after {
+                    content: '';
+                    width:2.146667rem;
+                    height:.106667rem;
+                    background:rgba(22,119,255,1);
+                    border-radius:.053333rem;
+                    position: absolute;
+                    left: 50%;
+                    bottom: 0;
+                    -webkit-transform: translate(-50%, 0);
+                    transform: translate(-50%, 0);
+                }
+            }
+        }
+    }
+    
+    .tabs-item {
+        padding-bottom: 2.4rem;
+        
+        // 课程目录
+        .course-directory {
+            margin-bottom: .266667rem;
+            font-size:.32rem;
+            font-family:PingFangSC;
+            font-weight:400;
+            color:rgba(139,139,139,1);
+            span {
+                margin-left: .4rem;
+                color: #FF6627;
+            }
+        }
+        .course-list {
+            .lis {
+                display: -webkit-box;
+                display: flex;
+                -webkit-box-pack: justify;
+                justify-content: space-between;
+                -webkit-box-align: top;
+                align-items: top;
+                padding-top: .333333rem;
+                min-height: .933333rem;
+                &.on {
+                    .right {
+                        border: none;
+                    }
+                }
+
+                .ico {
+                    flex-shrink: 0;
+                    margin-top: .106667rem;
+                    width: .453333rem;
+                    height: .453333rem;
+                }
+
+                .right {
+                    font-family: PingFangSC-Regular;
+                    display: -webkit-box;
+                    display: flex;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                    flex-flow: row nowrap;
+                    padding-bottom: .24rem;
+                    border-bottom: 1px solid #dddddd;
+                    width: 8.213333rem;
+                    color: #2f2f2f;
+                    font-size: .426667rem;
+                    line-height: .666667rem;
+
+                    .course-num {
+                        margin-right: .266667rem;
+                        white-space: nowrap;
+                        color: #2f2f2f;
+                        font-size: .426667rem;
+                    }
+                }
+
+            }
+
+            .uni-list {
+                // display: none;
+                width: 8.213333rem;
+                margin-left: .98rem;
+                .uni-list-cell {
+                    padding: .333333rem 0;
+                    border-bottom: 1px solid #dddddd;
+                    color: #8b8b8b;
+                    font-size: .426667rem;
+                    flex-wrap: wrap;
+                    p {
+                        line-height: .58rem;
+                        span {
+                            color: #8B8B8B !important;
+                            font-size: .32rem;
+                        }
+                    }
+                    // 学习状态按钮公共样式
+                    .state-btn {
+                        display: inline-block;
+                        padding: .186667rem .32rem .173333rem .306667rem;
+                        font-size: .32rem;
+                        border-radius: .333333rem;
+                        font-family:PingFangSC;
+                    }
+                    //未学习
+                    .audition {
+                        color: #189BFF;
+                        border: 1px solid #189BFF;
+                    }
+                    //已学完
+                    .learned {
+                        color:#8B8B8B;
+                        border:1px solid #8B8B8B;
+                    }
+                    //学习中
+                    .learning {
+                        color:#FF6627;
+                        border:1px solid #FF6627;
+                    }
+                }
+            }
+        }
+
+        //提问/FAQ
+        .questions-content {
+            .title {
+                font-size:.4rem;
+                font-family:PingFangSC;
+                font-weight:bold;
+                color:#2F2F2F;
+                span {
+                    margin-left: .24rem;
+                    font-size:.32rem;
+                    font-family:PingFangSC;
+                    font-weight:400;
+                    color:#8B8B8B;
+                }
+            }
+            .all-questions {
+                font-size:.32rem;
+                font-family:PingFangSC;
+                font-weight:400;
+                color:#FF6627;
+                .fa {
+                    margin-left: .186667rem;
+                }
+            }
+            // 暂无提问记录
+            .tips {
+                margin-top: 0;
+                padding: 1.48rem 0 1.466667rem;
+                border-bottom: 1px solid #DDDDDD;
+                .img{
+                    margin: 0 auto .453333rem;
+                    width: 2.373333rem;
+                    height: 1.64rem;
+                }
+                p {
+                    font-size:.4rem;
+                    font-family:PingFang SC;
+                    font-weight:400;
+                    color:#8B8B8B;
+                    text-align: center;
+                }
+            }
+            // 我的提问
+            .my-questions {
+                li {
+                    display: -webkit-box;
+                    display: flex;
+                    padding: .386667rem 0 .346667rem;
+                    border-bottom: 1px solid #DDDDDD;
+                    .ico {
+                        margin-top: .08rem;
+                        width: .453333rem;
+                        height: .413333rem;
+                    }
+                    .right {
+                        // width:8.28rem;
+                        width: 8.346667rem;
+                        // height:116px;
+                        font-size:.346667rem;
+                        line-height: .533333rem;
+                        font-family:PingFangSC;
+                        font-weight:400;
+                        color:#2F2F2F;
+                    }
+                }
+            }  
+            // 我要提问
+            .ask-questions {
+                margin: .533333rem  0 .786667rem;
+                font-size:.4rem;
+                font-family:PingFangSC;
+                font-weight:400;
+                color:#1677FF;
+                .fa {
+                    margin-left: .24rem;
+                }
+            }
+            // 常见问答
+            .qa-list {
+                margin-top: .133333rem;
+                li {
+                    border-bottom: 1px solid #DDDDDD;
+                    .lis {
+                        padding: .386667rem 0;
+                        &.on {
+                            .fa {
+                                -webkit-transform: rotate(180deg);
+                                        transform: rotate(180deg);
+                            }
+                        }
+                        h4 {
+                            // width:236px;
+                            // height:29px;
+                            font-size:.4rem;
+                            font-family:PingFangSC;
+                            font-weight:400;
+                            color:#2F2F2F;
+                        }
+                        .fa {
+                            color: #8B8B8B;
+                        }
+                    }
+                    .uni-list {
+                        .uni-list-cell {
+                            margin-bottom: .36rem;
+                            &:last-child {
+                                margin-bottom: 0;
+                                .right {
+                                    border-bottom: 0;
+                                }
+                            }
+                            .ico {
+                                width: .506667rem;
+                                height: .4rem;
+                            }
+                            .right {
+                                padding-bottom: .4rem;
+                                width:8.373333rem;
+                                font-size:.346667rem;
+                                font-family:PingFangSC;
+                                font-weight:400;
+                                color:#8B8B8B;
+                                border-bottom:1px solid #F0F0F0;
+                                p {
+                                    line-height: .533333rem;
+                                }
+                                .questions {
+                                    margin-bottom: .386667rem;
+                                    color: #2F2F2F;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //课后作业
+        .home-work {
+            margin-top: -.133333rem;
+            li {
+                padding: .386667rem 0;
+                // width:526px;
+                font-size:.4rem;
+                font-family:PingFangSC;
+                font-weight:400;
+                color:#2F2F2F;
+                border-bottom: 1px solid #DDDDDD;
+                a {
+                    color:#2F2F2F;
+                    p {
+                        display: -webkit-box;
+                        display: flex;
+                        width: 7.066667rem;
+                        line-height: .533333rem;
+                    }
+                    span {
+                        margin-top: .08rem;
+                        // width:.933333rem;
+                        // height:23px;
+                        font-size:.32rem;
+                        font-family:PingFangSC;
+                        font-weight:400;
+                        color:#8B8B8B;
+                    }
+                }
+            }
+        }
+        //暂无课后作业
+        .tips {
+            margin-top: 2.013333rem;
+            .img{
+                margin: 0 auto .453333rem;
+                width: 2.373333rem;
+                height: 1.64rem;
+            }
+            p {
+                font-size:.4rem;
+                font-family:PingFang SC;
+                font-weight:400;
+                color:#8B8B8B;
+                text-align: center;
+            }
+        }
+        
+    }
+}
+
+
+
+.wrap-center {
+    padding: .533333rem .4rem 0;
+}
+
+.color-FF6627 {
+    color: #FF6627 !important;
+}
+
+.fa {
+    font-size: .5rem;
+}

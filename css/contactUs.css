@@ -1,0 +1,135 @@
+.contactUs-content {
+  padding: 0 0.4rem;
+}
+.contactUs-content .contact .contact-item {
+  padding: 0.56rem 0.293333rem 0.586667rem 0.373333rem;
+  border-bottom: 1px solid #F0F0F0;
+}
+.contactUs-content .contact .contact-item img {
+  margin-right: 0.266667rem;
+}
+.contactUs-content .contact .contact-item .icon-tel {
+  width: 0.48rem;
+  height: 0.453333rem;
+}
+.contactUs-content .contact .contact-item .icon-weChat {
+  width: 0.506667rem;
+  height: 0.426667rem;
+}
+.contactUs-content .contact .contact-item p {
+  font-size: 0.4rem;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #2F2F2F;
+}
+.contactUs-content .contact .contact-item a {
+  font-size: 0.4rem;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #1677FF;
+}
+.contactUs-content .contact .time {
+  margin-top: 0.613333rem;
+  margin-bottom: 4.706667rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.32rem;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #8B8B8B;
+}
+.contactUs-content .contact .time span {
+  color: #2F2F2F;
+}
+.contactUs-content .contact .footer {
+  padding-bottom: 1.253333rem;
+  text-align: center;
+}
+.contactUs-content .contact .footer p {
+  margin-bottom: 0.586667rem;
+  font-size: 0.4rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #8B8B8B;
+}
+.contactUs-content .contact .footer p i {
+  color: #1677FF;
+}
+.contactUs-content .contact .footer img {
+  margin: 0 auto 0.16rem;
+  width: 3.253333rem;
+  height: 3.253333rem;
+}
+.contactUs-content .contact .footer span {
+  display: block;
+  font-size: 0.32rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #8b8b8b;
+  color: #8B8B8B;
+}
+.help-center-content ul li {
+  padding: 0.56rem 0.293333rem 0.586667rem 0.373333rem;
+  border-bottom: 1px solid #F0F0F0;
+  font-size: 0.4rem;
+  font-family: PingFang SC;
+  color: #2F2F2F;
+}
+.help-center-content ul li .fa {
+  color: #DDDDDD;
+}
+.bind-content .form-box .item {
+  padding: 0 0.4rem;
+  height: 1.466667rem;
+  border-bottom: 1px solid #F0F0F0;
+}
+.bind-content .form-box .item input {
+  padding: 0.56rem 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0.4rem;
+  font-family: PingFang SC;
+  font-weight: 300;
+  color: #2f2f2f;
+}
+.bind-content .form-box .item input::-webkit-input-placeholder {
+  color: #8B8B8B;
+}
+.bind-content .form-box .item .img-code {
+  width: 2rem;
+  height: 0.72rem;
+}
+.bind-content .form-box .code-item input {
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+.bind-content .form-box .code-item .getCode {
+  -webkit-box-flex: 1;
+  flex: 1;
+  text-align: right;
+  height: 1.466667rem;
+  line-height: 1.466667rem;
+  font-size: 0.4rem;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #1677FF;
+}
+.bind-content .form-box .submit {
+  padding: 1.346667rem 0.4rem 0;
+}
+.bind-content .form-box .submit.submit2 {
+  padding-top: 3.64rem;
+}
+.bind-content .form-box .submit .submit-btn {
+  width: 100%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  background: #1677FF;
+  border-radius: 0.6rem;
+  font-size: 0.48rem;
+  text-align: center;
+  font-family: PingFangSC;
+  font-weight: 400;
+  color: #fff;
+  outline: none;
+}
